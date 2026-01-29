@@ -13,10 +13,12 @@ Technology has always been my passion. I am currently focused on moving beyond t
 ## 🛠️ Tech Stack & Tools
 | Category | Tools I am Learning/Using |
 |----------|---------------------------|
-| **Cloud Provider** | AWS (EC2, S3, IAM, VPC) |
+| **Cloud Provider** | AWS (EC2, ECS, EKS, Lambda; VPC, ALB/NLB/GWLB, Route 53, Global Accelerator, API Gateway, CloudFront; S3, EBS, EFS; RDS, DynamoDB, ElastiCache; SQS, SNS, SES; IAM, IAM Identity Center, AWS Organization, Cognito, WAF; CloudWatch; Amazon Q AI) |
 | **OS** | Linux (Ubuntu/RHEL) |
 | **Languages** | Python, Bash/Shell |
 | **Version Control** | Git & GitHub |
+| **DevOps Tools**  | Terraform, Ansible, Docker, Kubernetes, Jenkins, Grafana, Prometheus |
+
 
 ## 📂 Repository Structure
 This repository is organized into folders based on technologies:
@@ -26,7 +28,7 @@ This repository is organized into folders based on technologies:
 
 ## 🤝 Let's Connect!
 I am documenting my daily learnings and challenges under the **#BuildInPublic** initiative.
-* **LinkedIn:** [Paste Your LinkedIn Profile Link Here]
+* **LinkedIn:** www.linkedin.com/in/gulshan-kumar-51aa79321
 
 ---
 ⭐ *If you find this journey interesting, please **Star** this repository to support me!*
