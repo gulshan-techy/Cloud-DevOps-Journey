@@ -15,4 +15,4 @@ for res in response["Reservations"]:
         print("-" * 50)
 
 
-# A Python automation script using the Boto3 library to fetch and display real-time details of AWS EC2 instances (ID, State, Type, IPs) without logging into the AWS Console.
+# A Python automation script using the Boto3 library to fetch and display real-time details of AWS EC2 instances (ID, State, Type, Public Ip, Private Ip) without logging into the AWS Console.
