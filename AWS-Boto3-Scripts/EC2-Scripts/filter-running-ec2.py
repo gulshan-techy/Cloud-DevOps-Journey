@@ -20,3 +20,9 @@ response=ec2.describe_instances(
 for res in response["Reservations"]:
     for ins in res["Instances"]:
         print(f"ID: {ins['InstanceId']} | State: {ins['State']['Name']} | {ins['InstanceType']}")
+
+# ---------------------------------------------------------
+# 💡 PRO TIP: You can filter instances by changing the "Values".
+# Available States: 'pending', 'running', 'shutting-down', 
+#                   'terminated', 'stopping', 'stopped'
+# ---------------------------------------------------------
