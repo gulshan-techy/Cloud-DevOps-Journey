@@ -22,5 +22,6 @@ for new_res in new_response["Reservations"]:
     for new_ins in new_res["Instances"]:       
         new_ins_id = new_ins["InstanceId"]
         print(f"Instance Id and Status After Start :- {new_ins['InstanceId']} | State: {new_ins['State']['Name']}")
+        
 
-# This code start ec2 instance 
+# Automation Script to Start AWS EC2 Instances and Verify Status Updates.
