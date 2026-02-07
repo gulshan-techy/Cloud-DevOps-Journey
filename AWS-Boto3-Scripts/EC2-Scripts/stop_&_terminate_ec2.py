@@ -22,3 +22,5 @@ for new_res in new_response["Reservations"]:
     for new_ins in new_res["Instances"]:       
         new_ins_id = new_ins["InstanceId"]
         print(f"Instance Id and Status After Stop :- {new_ins['InstanceId']} | State: {new_ins['State']['Name']}")
+
+# # Automation Script to Stop or Terminate AWS EC2 Instances and Verify Status Updates.
